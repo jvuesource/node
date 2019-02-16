@@ -8,6 +8,13 @@ If you consistently can reproduce a test failure, search for it in the
 [Node.js issue tracker](https://github.com/nodejs/node/issues) or
 file a new issue.
 
+## Checkout
+
+do the following to checkout j2v8 workable version of node 7.4.0
+
+```
+git clone https://github.com/jvuesource/node.git --config core.autocrlf=false --depth 1 --branch v7.4.0
+```
 
 ### Unix / OS X
 
